@@ -51,6 +51,7 @@ const Slider = () => {
                   name="radio-button"
                   // modification de idx en index
                   checked={index === radioIdx}
+                  readOnly
                 />
               ))}
             </div>
